@@ -1,0 +1,5 @@
+name = "cautious-barnacle"
+compatibility_date = "2026-01-07"
+
+[site]
+bucket = "./dist"
