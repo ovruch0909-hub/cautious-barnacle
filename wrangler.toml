@@ -1,5 +1,7 @@
-name = "cautious-barnacle"
+name = "cautious"
 compatibility_date = "2026-01-07"
 
+# Настройка для статических файлов
 [site]
-bucket = "./dist"
+bucket = "."        # "." = текущая папка, где лежит index.html
+entry-point = "workers-site"
